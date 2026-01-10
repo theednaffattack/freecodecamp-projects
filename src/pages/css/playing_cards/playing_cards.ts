@@ -28,7 +28,12 @@ function arrayRange(stop: number, start: number, step: number) {
   return Array.from({ length: (stop - start) / step + 1 });
 }
 
-const genCards = arrayRange(5, 0, 1).map(() => {
+function randomIntFromInterval(min: number, max: number) {
+  // min and max included
+  return Math.floor(Math.random() * (max - min + 1) + min);
+}
+
+const genCards = arrayRange(randomIntFromInterval(2, 8), 0, 1).map(() => {
   let color = "";
   const rdmCardSuit = cardSuits[Math.floor(Math.random() * cardSuits.length)];
 

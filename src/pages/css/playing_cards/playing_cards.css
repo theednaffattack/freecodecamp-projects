@@ -34,7 +34,7 @@ p {
 }
 
 .left {
-  align-self: start;
+  align-self: flex-start;
 }
 
 .middle {
@@ -60,5 +60,5 @@ p {
 }
 
 .right {
-  align-self: end;
+  align-self: flex-end;
 }
