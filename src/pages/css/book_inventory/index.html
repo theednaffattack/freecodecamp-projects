@@ -4,6 +4,72 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Book Inventory</title>
+    <link rel="stylesheet" href="book-inventory.css" />
   </head>
-  <body></body>
+  <body>
+    <main>
+      <h1>Book Inventory</h1>
+      <table>
+        <caption>
+          Fake Table Caption
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Title</th>
+            <th scope="col">Author</th>
+            <th scope="col">Category</th>
+            <th scope="col">Status</th>
+            <th scope="col">Rate</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="read">
+            <th scope="row">The Three Musketeers</th>
+            <td>Alexandre Dumas</td>
+            <td>Historical Novel</td>
+            <td>
+              <span class="status">Read</span>
+            </td>
+            <td>
+              <span class="rate three">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </td>
+          </tr>
+          <tr class="to-read">
+            <th scope="row">The Plague</th>
+            <td>Albert Camus</td>
+            <td>Philosophical Novel</td>
+            <td>
+              <span class="status"> To Read </span>
+            </td>
+            <td>
+              <span class="rate">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </td>
+          </tr>
+          <tr class="in-progress">
+            <th scope="row">The Metamorphosis</th>
+            <td>Franz Kafka</td>
+            <td>Novella</td>
+            <td>
+              <span class="status">In Progress</span>
+            </td>
+            <td>
+              <span class="rate">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  </body>
 </html>

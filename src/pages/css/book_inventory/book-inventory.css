@@ -1,0 +1,44 @@
+tr[class="read"] {
+  background-image: linear-gradient(#e66465, #9198e5);
+}
+
+tr[class="to-read"] {
+  background-image: linear-gradient(#e66465, #9198e5);
+}
+
+tr[class="in-progress"] {
+  background-image: linear-gradient(#e66465, #9198e5);
+}
+
+span {
+  display: inline-block;
+}
+
+tr[class="to-read"] span[class="status"] {
+  border: 8px solid green;
+  background-color: bisque;
+}
+
+tr[class="read"] span[class="status"] {
+  border: 8px solid red;
+  background-color: bisque;
+}
+
+tr[class="in-progress"] span[class="status"] {
+  border: 8px solid blue;
+  background-color: bisque;
+}
+
+/*
+You should use an attribute selector to target
+the span elements with the class of status 
+and the span elements with the class value 
+starting with rate and set their height, width, 
+and padding properties.
+*/
+span[class="status"],
+span[class^=""] {
+  height: 40px;
+  width: 20px;
+  padding: 6px;
+}
