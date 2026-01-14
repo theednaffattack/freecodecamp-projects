@@ -1,0 +1,15 @@
+#pad-bank {
+  display: flex;
+  /* width: 100%; */
+  outline: 2px solid green;
+}
+
+.drum-pad {
+  width: 90px;
+  height: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  outline: 1px solid pink;
+}

@@ -6,8 +6,8 @@ import { myWriteFile } from "./write-file.ts";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const inputFilePath = "../src/pages/js/markdown_to_html/main.ts";
-const outputFilePath = "../src/pages/js/markdown_to_html/main.js";
+const inputFilePath = "../src/pages/js/drum_machine/main.ts";
+const outputFilePath = "../src/pages/js/drum_machine/main.js";
 // const sourceCode = `
 // const test: number = 1 + 2;
 // console.log(test);
